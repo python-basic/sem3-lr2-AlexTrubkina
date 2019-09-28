@@ -17,7 +17,7 @@
     * Maxima
 1. Портфолио: [ссылка на портфолио](https://sites.google.com/view/kompvirusy-trubkina/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F/%D0%BE%D0%B1-%D0%B0%D1%82%D0%BE%D1%80%D0%B5)
 1. Мотивирующее изображение:
-
+![мотивирующая картинка](https://images.unsplash.com/photo-1569596082827-c5e8990496cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80 "мотивирующее изображение")
 ### Программа считающая площадь треугольника по формуле Герона
 
 ```python
