@@ -3,7 +3,7 @@ def main():
     a = float(input("Введите а: "))
     b = float(input("Введите b: "))
     c = float(input("Введите с: "))
-    if a + b < c or a + c < b or b + c < a and a > 0 and b > 0 and c > 0:
+    if a + b > c or a + c > b or b + c > a and a > 0 and b > 0 and c > 0:
         res = grn(a, b, c)
         print(res)
     else: 
