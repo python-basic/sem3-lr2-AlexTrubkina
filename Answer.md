@@ -15,29 +15,33 @@
     * Язык программирования C
     * Maple
     * Maxima
-1. Портфолио: 
+1. [Портфолио](https://alextrubkina.github.io/) 
 1. Мотивирующее изображение:
 ![мотивирующая картинка](https://images.unsplash.com/photo-1569596082827-c5e8990496cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80 "мотивирующее изображение")
 ### Программа, считающая площадь треугольника по формуле Герона:
 
 ```python
-import math
+
 def main():
     a = float(input("Введите а: "))
     b = float(input("Введите b: "))
     c = float(input("Введите с: "))
-    if a + b > c or a + c > b or b + c > a and a > 0 and b > 0 and c > 0:
-        res = grn(a, b, c)
-        print(res)
+    if a+b > c and a > 0 and b > 0 and c > 0:
+        if a+c > b:
+            if b+c > a:
+                res = grn(a, b, c)
+            print(res)
     else: 
         print("Треугольника не существует")
 
-
+import math
 def grn(a, b, c):
     """
     Расчет площади треугольника по формуле Герона
     """
     ppr = (a+b+c) / 2
-    pl = sqrt(ppr * (ppr-a) * (ppr-b) * (ppr-c))
+    pl = pow(ppr * (ppr-a) * (ppr-b) * (ppr-c), 0.5)
     return pl
+
+main()
 ```
