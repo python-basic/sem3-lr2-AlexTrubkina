@@ -15,7 +15,7 @@
     * Язык программирования C
     * Maple
     * Maxima
-1. [Портфолио](https://alextrubkina.github.io/) 
+1. [Портфолио](https://alextrubkina.github.io/web-portfolio/) 
 1. Мотивирующее изображение:
 ![мотивирующая картинка](https://images.unsplash.com/photo-1569596082827-c5e8990496cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80 "мотивирующее изображение")
 ### Программа, считающая площадь треугольника по формуле Герона:
